@@ -1,0 +1,38 @@
+/*------------------清除默认样式-----------------------*/
+/*清除边距*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------头部导航条部分---------------------*/
+/*头部整体设置*/
+.head-box{
+    /*尺寸*/
+    width: 100%;
+    height:44px;
+    /*背景颜色*/
+    background-color: #2459a2;
+    /*设置位置*/
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/*头部中间内容区域*/
+.head-content{
+    /*居中*/
+    margin: 0 auto;
+    /*尺寸*/
+    width: 1016px;
+    height: 44px;
+    /*背景色*/
+    background-color: green;
+}
+/*.logo{*/
+    /*!*加载logo图片*!*/
+    /*background: url("images/logo.png");*/
+    /*!*图像尺寸*!*/
+    /*height: 23px;*/
+    /*width: 121px;*/
+
+/*}*/
